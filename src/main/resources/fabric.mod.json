@@ -3,7 +3,7 @@
   "id": "small_interactable_hitbox_extender",
   "version": "${version}",
   "name": "Small Interactable Hitbox Extender",
-  "description": "A small QoL mod that lets you configure the interaction hitboxes of buttons and levers.",
+  "description": "A small client-side QoL mod that lets you configure the interaction hitboxes of buttons and levers.",
   "authors": [
     "Chloe_ilcu"
   ],
@@ -23,7 +23,7 @@
   ],
   "depends": {
     "fabricloader": ">=0.19.3",
-    "minecraft": "~26.1.2",
+    "minecraft": "26.1.2",
     "java": ">=25",
     "fabric-api": ">=0.155.0"
   },
