@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "small_interactable_hitbox_extender",
+  "version": "${version}",
+  "name": "Small Interactable Hitbox Extender",
+  "description": "A small QoL mod that lets you configure the interaction hitboxes of buttons and levers.",
+  "authors": [
+    "Chloe_ilcu"
+  ],
+  "license": "MIT",
+  "icon": "assets/small_interactable_hitbox_extender/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "modmenu": [
+      "dev.chloeilcu.sihx.integration.ModMenuIntegration"
+    ],
+    "client": [
+      "dev.chloeilcu.sihx.SmallInteractableHitboxExtenderClient"
+    ]
+  },
+  "mixins": [
+    "small_interactable_hitbox_extender.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "~26.1.2",
+    "java": ">=25",
+    "fabric-api": ">=0.155.0"
+  },
+  "suggests": {
+    "modmenu": ">=18.0.0 <19"
+  }
+}
