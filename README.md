@@ -32,6 +32,26 @@ A small client-side QoL Fabric mod that lets you configure the interaction hitbo
 
 
 
+\## Hitbox Modes
+
+
+
+\### Buttons
+
+
+
+!\[Button hitbox comparison](Images/button-hitboxes-comparison.png)
+
+
+
+\### Levers
+
+
+
+!\[Lever hitbox comparison](Images/lever-hitboxes-comparison.png)
+
+
+
 \## Configuration
 
 
@@ -87,5 +107,7 @@ Requires Java 25.
 ```sh
 
 ./gradlew build
+
+
 
 
