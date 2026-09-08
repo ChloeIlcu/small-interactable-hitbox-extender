@@ -40,7 +40,7 @@ You can open the configuration screen in two ways:
 
 
 
-\- Bind \*\*Open SIHE Config\*\* under `Options → Controls → Key Binds`
+\- Assign a key to \*\*Open SIHE Config\*\* under Options → Controls → Key Binds
 
 \- If Mod Menu is installed, use its \*\*Configure\*\* button
 
@@ -87,4 +87,5 @@ Requires Java 25.
 ```sh
 
 ./gradlew build
+
 
