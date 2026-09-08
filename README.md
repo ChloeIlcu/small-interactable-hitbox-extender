@@ -40,7 +40,7 @@ A small client-side QoL Fabric mod that lets you configure the interaction hitbo
 
 
 
-!\[Button hitbox comparison](Images/button-hitboxes-comparison.png)
+<img src="Images/button-hitboxes-comparison.png" alt="Button hitbox comparison">
 
 
 
@@ -48,7 +48,7 @@ A small client-side QoL Fabric mod that lets you configure the interaction hitbo
 
 
 
-!\[Lever hitbox comparison](Images/lever-hitboxes-comparison.png)
+<img src="Images/lever-hitboxes-comparison.png" alt="Lever hitbox comparison">
 
 
 
@@ -107,6 +107,7 @@ Requires Java 25.
 ```sh
 
 ./gradlew build
+
 
 
 
